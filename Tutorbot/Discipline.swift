@@ -8,12 +8,18 @@
 
 import Foundation
 class Discipline{
-    var id: Int?
+    var id: String?
     var name: String?
     var description: String?
     var imagePath: String?
     
-    init(name: String){
+    init(name: String, imagePath: String){
         self.name = name
+        self.imagePath = imagePath
+    }
+    init(name: String, imagePath: String, description: String){
+        self.name = name
+        self.imagePath = imagePath
+        self.description = description
     }
 }

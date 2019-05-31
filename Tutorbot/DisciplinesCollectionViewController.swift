@@ -16,6 +16,7 @@ class DisciplinesCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         createInstances()
+        title = "Disciplinas"
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -61,12 +62,19 @@ class DisciplinesCollectionViewController: UICollectionViewController {
         let discipline = disciplines[indexPath.row]
         // Configure the cell...
         cell.disciplineName.text = discipline.name ?? "Foo"
-    
+        cell.disciplineImage.image = UIImage(contentsOfFile: discipline.imagePath ?? "")
         // Configure the cell
-    
         return cell
     }
 
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let novaView = segue.destination as? DisciplineDetailsViewController{
+            let disciplineIndex = collectionView?.indexPathsForSelectedItems?[0][1]
+            let discipline = disciplines[disciplineIndex!]
+            novaView.discipline = discipline
+        }
+    }
     // MARK: UICollectionViewDelegate
 
     /*
@@ -99,9 +107,9 @@ class DisciplinesCollectionViewController: UICollectionViewController {
     */
 
     func createInstances(){
-        disciplines.append(Discipline(name: "TESTE 1"))
-        disciplines.append(Discipline(name: "TESTE 1"))
-        disciplines.append(Discipline(name: "TESTE 1"))
-        disciplines.append(Discipline(name: "TESTE 1"))
+        disciplines.append(Discipline(name: "TESTE 1",imagePath: "/Volumes/student/Augusto/-veja-como-aprender-a-amar-matematica.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."))
+        disciplines.append(Discipline(name: "TESTE 1",imagePath: "/Volumes/student/Augusto/-veja-como-aprender-a-amar-matematica.png"))
+        disciplines.append(Discipline(name: "TESTE 1", imagePath: "/Volumes/student/Augusto/-veja-como-aprender-a-amar-matematica.png"))
+        disciplines.append(Discipline(name: "TESTE 1", imagePath: "/Volumes/student/Augusto/-veja-como-aprender-a-amar-matematica.png"))
     }
 }

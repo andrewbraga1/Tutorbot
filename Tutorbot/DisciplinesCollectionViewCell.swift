@@ -12,6 +12,7 @@ class DisciplinesCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var disciplineName: UILabel!
     
+    @IBOutlet weak var disciplineImage: UIImageView!
     override func awakeFromNib() {
         
     }
