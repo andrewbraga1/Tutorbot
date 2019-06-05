@@ -22,6 +22,11 @@
 		3F92A2BD229EAD5C00CE183A /* DisciplinesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92A2BC229EAD5B00CE183A /* DisciplinesCollectionViewController.swift */; };
 		3F92A2BF229EAEEF00CE183A /* DisciplinesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92A2BE229EAEEF00CE183A /* DisciplinesCollectionViewCell.swift */; };
 		3F92A2C122A0003400CE183A /* DisciplineDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F92A2C022A0003400CE183A /* DisciplineDetailsViewController.swift */; };
+		3FC7448722A7EEA200CF882B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FC7448622A7EEA200CF882B /* GoogleService-Info.plist */; };
+		3FE9FCBA22A55F6600667F5E /* BleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE9FCB922A55F6600667F5E /* BleTableViewCell.swift */; };
+		A7AD1AEE0F70A43DF8198A6E /* Pods_TutorbotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664C5E46DED03319DA0D9810 /* Pods_TutorbotTests.framework */; };
+		BA5D7813A9E1885D51575970 /* Pods_TutorbotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE9263BFBCD889F5118449 /* Pods_TutorbotUITests.framework */; };
+		C3AB3C8F1F4BB0EF0B5A15C5 /* Pods_Tutorbot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC41AA9FE6B7370C29A1378 /* Pods_Tutorbot.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EAE9263BFBCD889F5118449 /* Pods_TutorbotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TutorbotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		356933C9739AEBC481110D06 /* Pods-TutorbotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutorbotUITests.debug.xcconfig"; path = "Target Support Files/Pods-TutorbotUITests/Pods-TutorbotUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F0815A622A167AD00465D92 /* ConfigurationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationsViewController.swift; sourceTree = "<group>"; };
 		3F0815A822A1681700465D92 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3F0815AA22A54ED400465D92 /* BluetoothTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothTableViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +70,15 @@
 		3F92A2BC229EAD5B00CE183A /* DisciplinesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplinesCollectionViewController.swift; sourceTree = "<group>"; };
 		3F92A2BE229EAEEF00CE183A /* DisciplinesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplinesCollectionViewCell.swift; sourceTree = "<group>"; };
 		3F92A2C022A0003400CE183A /* DisciplineDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplineDetailsViewController.swift; sourceTree = "<group>"; };
+		3FC7448622A7EEA200CF882B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FE9FCB922A55F6600667F5E /* BleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleTableViewCell.swift; sourceTree = "<group>"; };
+		432069846EC5C6E0CEEA8844 /* Pods-TutorbotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutorbotTests.debug.xcconfig"; path = "Target Support Files/Pods-TutorbotTests/Pods-TutorbotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57A41E86D213374947D4E314 /* Pods-Tutorbot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutorbot.release.xcconfig"; path = "Target Support Files/Pods-Tutorbot/Pods-Tutorbot.release.xcconfig"; sourceTree = "<group>"; };
+		664C5E46DED03319DA0D9810 /* Pods_TutorbotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TutorbotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		733FD3EF28A5D9B505B93A84 /* Pods-Tutorbot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutorbot.debug.xcconfig"; path = "Target Support Files/Pods-Tutorbot/Pods-Tutorbot.debug.xcconfig"; sourceTree = "<group>"; };
+		8DC41AA9FE6B7370C29A1378 /* Pods_Tutorbot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tutorbot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CAB0391EBB5C5FFE69B441C /* Pods-TutorbotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutorbotUITests.release.xcconfig"; path = "Target Support Files/Pods-TutorbotUITests/Pods-TutorbotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B3934B679DB91BBFCEA11DD1 /* Pods-TutorbotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutorbotTests.release.xcconfig"; path = "Target Support Files/Pods-TutorbotTests/Pods-TutorbotTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F92A2AE229D573600CE183A /* CoreBluetooth.framework in Frameworks */,
+				C3AB3C8F1F4BB0EF0B5A15C5 /* Pods_Tutorbot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7AD1AEE0F70A43DF8198A6E /* Pods_TutorbotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +103,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5D7813A9E1885D51575970 /* Pods_TutorbotUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A7CEAB0B3D1CAEC9DA8FA2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				733FD3EF28A5D9B505B93A84 /* Pods-Tutorbot.debug.xcconfig */,
+				57A41E86D213374947D4E314 /* Pods-Tutorbot.release.xcconfig */,
+				432069846EC5C6E0CEEA8844 /* Pods-TutorbotTests.debug.xcconfig */,
+				B3934B679DB91BBFCEA11DD1 /* Pods-TutorbotTests.release.xcconfig */,
+				356933C9739AEBC481110D06 /* Pods-TutorbotUITests.debug.xcconfig */,
+				9CAB0391EBB5C5FFE69B441C /* Pods-TutorbotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3F92A272229D565F00CE183A = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +132,7 @@
 				3F92A29D229D565F00CE183A /* TutorbotUITests */,
 				3F92A27C229D565F00CE183A /* Products */,
 				3F92A2AC229D573600CE183A /* Frameworks */,
+				1A7CEAB0B3D1CAEC9DA8FA2A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +154,7 @@
 				3F92A2AF229D5FD400CE183A /* model */,
 				3F92A27E229D565F00CE183A /* AppDelegate.swift */,
 				3F92A285229D565F00CE183A /* Assets.xcassets */,
+				3FC7448622A7EEA200CF882B /* GoogleService-Info.plist */,
 				3F92A287229D565F00CE183A /* LaunchScreen.storyboard */,
 				3F92A28A229D565F00CE183A /* Info.plist */,
 			);
@@ -148,6 +183,9 @@
 			isa = PBXGroup;
 			children = (
 				3F92A2AD229D573600CE183A /* CoreBluetooth.framework */,
+				8DC41AA9FE6B7370C29A1378 /* Pods_Tutorbot.framework */,
+				664C5E46DED03319DA0D9810 /* Pods_TutorbotTests.framework */,
+				0EAE9263BFBCD889F5118449 /* Pods_TutorbotUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,6 +195,7 @@
 			children = (
 				3F92A2B8229D621E00CE183A /* Discipline.swift */,
 				3F92A2BE229EAEEF00CE183A /* DisciplinesCollectionViewCell.swift */,
+				3FE9FCB922A55F6600667F5E /* BleTableViewCell.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -189,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F92A2A3229D565F00CE183A /* Build configuration list for PBXNativeTarget "Tutorbot" */;
 			buildPhases = (
+				E829F0394838BC3B746968D0 /* [CP] Check Pods Manifest.lock */,
 				3F92A277229D565F00CE183A /* Sources */,
 				3F92A278229D565F00CE183A /* Frameworks */,
 				3F92A279229D565F00CE183A /* Resources */,
+				5A8EC7944F65D69BCB9CD49D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F92A2A6229D565F00CE183A /* Build configuration list for PBXNativeTarget "TutorbotTests" */;
 			buildPhases = (
+				BE7391FCD4F7475FFA8C10C6 /* [CP] Check Pods Manifest.lock */,
 				3F92A28B229D565F00CE183A /* Sources */,
 				3F92A28C229D565F00CE183A /* Frameworks */,
 				3F92A28D229D565F00CE183A /* Resources */,
@@ -224,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F92A2A9229D565F00CE183A /* Build configuration list for PBXNativeTarget "TutorbotUITests" */;
 			buildPhases = (
+				34209F8A0D860BDB960FE30B /* [CP] Check Pods Manifest.lock */,
 				3F92A296229D565F00CE183A /* Sources */,
 				3F92A297229D565F00CE183A /* Frameworks */,
 				3F92A298229D565F00CE183A /* Resources */,
@@ -290,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F92A289229D565F00CE183A /* LaunchScreen.storyboard in Resources */,
+				3FC7448722A7EEA200CF882B /* GoogleService-Info.plist in Resources */,
 				3F92A286229D565F00CE183A /* Assets.xcassets in Resources */,
 				3F92A284229D565F00CE183A /* Main.storyboard in Resources */,
 			);
@@ -311,6 +355,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34209F8A0D860BDB960FE30B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TutorbotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8EC7944F65D69BCB9CD49D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tutorbot/Pods-Tutorbot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tutorbot/Pods-Tutorbot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE7391FCD4F7475FFA8C10C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TutorbotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E829F0394838BC3B746968D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tutorbot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F92A277229D565F00CE183A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -319,6 +458,7 @@
 				3F92A281229D565F00CE183A /* ViewController.swift in Sources */,
 				3F0815A722A167AD00465D92 /* ConfigurationsViewController.swift in Sources */,
 				3F92A2BF229EAEEF00CE183A /* DisciplinesCollectionViewCell.swift in Sources */,
+				3FE9FCBA22A55F6600667F5E /* BleTableViewCell.swift in Sources */,
 				3F92A27F229D565F00CE183A /* AppDelegate.swift in Sources */,
 				3F92A2BD229EAD5C00CE183A /* DisciplinesCollectionViewController.swift in Sources */,
 				3F0815AB22A54ED400465D92 /* BluetoothTableViewController.swift in Sources */,
@@ -476,6 +616,7 @@
 		};
 		3F92A2A4229D565F00CE183A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733FD3EF28A5D9B505B93A84 /* Pods-Tutorbot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tutorbot/Info.plist;
@@ -488,6 +629,7 @@
 		};
 		3F92A2A5229D565F00CE183A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A41E86D213374947D4E314 /* Pods-Tutorbot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tutorbot/Info.plist;
@@ -500,6 +642,7 @@
 		};
 		3F92A2A7229D565F00CE183A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432069846EC5C6E0CEEA8844 /* Pods-TutorbotTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +657,7 @@
 		};
 		3F92A2A8229D565F00CE183A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3934B679DB91BBFCEA11DD1 /* Pods-TutorbotTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +672,7 @@
 		};
 		3F92A2AA229D565F00CE183A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356933C9739AEBC481110D06 /* Pods-TutorbotUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TutorbotUITests/Info.plist;
@@ -541,6 +686,7 @@
 		};
 		3F92A2AB229D565F00CE183A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CAB0391EBB5C5FFE69B441C /* Pods-TutorbotUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TutorbotUITests/Info.plist;

@@ -10,7 +10,8 @@ import UIKit
 import CoreBluetooth
 
 class BluetoothTableViewController: UITableViewController,  CBCentralManagerDelegate, CBPeripheralDelegate{
-
+    
+    var devices = Array<CBPeripheral>()
     var bluetoothManager: CBCentralManager?
     var peripheralLocal: CBPeripheral?
     var peripheralUUID: CBUUID?
@@ -61,6 +62,8 @@ class BluetoothTableViewController: UITableViewController,  CBCentralManagerDele
     
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
         
+        devices.append(peripheral)
+        
         print(peripheral.state)
         if(peripheral.name == "Rasp"){
             peripheral.delegate = self
@@ -98,18 +101,23 @@ class BluetoothTableViewController: UITableViewController,  CBCentralManagerDele
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return devices.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "bleTableViewCell", for: indexPath)
 
-        // Configure the cell...
-
+        if let deviceCell = cell as? BleTableViewCell{
+        
+            let device = devices[indexPath.row]
+            deviceCell.textLabel?.text = device.name
+        
+        }
+        tableView.reloadData()
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
